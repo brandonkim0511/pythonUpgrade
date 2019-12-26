@@ -1,5 +1,5 @@
 ##'Try understanding this codes.
-'
+
 def merge_sort(unsorted_list):
     if len(unsorted_list) <= 1:
         return unsorted_list
@@ -28,6 +28,7 @@ def merge(left_half,right_half):
         res = res + right_half
     else:
         res = res + left_half
+    print(res)
     return res
 
 unsorted_list = [64, 34, 25, 12, 22, 11, 90]
