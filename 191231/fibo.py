@@ -31,7 +31,7 @@ def fiboIteration(n):
 fiboIteration(10)
 
 def fiboRecursion(first, second, n, count = 1):
-    if( count == 2 ):
+    if( count == 1 ):
         print(first)
         print(second)
     elif (count >= n) :
